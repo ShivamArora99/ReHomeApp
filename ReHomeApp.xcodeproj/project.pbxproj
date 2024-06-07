@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		707ED30E2C0FE2B9003621B3 /* MyListingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707ED30D2C0FE2B9003621B3 /* MyListingsView.swift */; };
+		707F4A342C0E916D0009D23C /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F4A332C0E916D0009D23C /* AddItemView.swift */; };
+		70E42E222C11464800523226 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E42E212C11464800523226 /* EditItemView.swift */; };
 		E45C62942C0D6BCB00557DD9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C62932C0D6BCB00557DD9 /* HomeView.swift */; };
 		E4A6BAE82C08313E005E35A3 /* ReHomeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BAE72C08313E005E35A3 /* ReHomeAppApp.swift */; };
 		E4A6BAEA2C08313E005E35A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BAE92C08313E005E35A3 /* ContentView.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		707ED30D2C0FE2B9003621B3 /* MyListingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListingsView.swift; sourceTree = "<group>"; };
+		707F4A332C0E916D0009D23C /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		70E42E212C11464800523226 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		E45C62932C0D6BCB00557DD9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E4A6BAE42C08313E005E35A3 /* ReHomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReHomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A6BAE72C08313E005E35A3 /* ReHomeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReHomeAppApp.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				E4A6BAE92C08313E005E35A3 /* ContentView.swift */,
 				E4A6BAF52C08314E005E35A3 /* CategoriesView.swift */,
 				E45C62932C0D6BCB00557DD9 /* HomeView.swift */,
+				707F4A332C0E916D0009D23C /* AddItemView.swift */,
+				70E42E212C11464800523226 /* EditItemView.swift */,
+				707ED30D2C0FE2B9003621B3 /* MyListingsView.swift */,
 				E4A6BAEB2C08313E005E35A3 /* Assets.xcassets */,
 				E4A6BAED2C08313E005E35A3 /* Preview Content */,
 			);
@@ -146,7 +155,10 @@
 				E4A6BAEA2C08313E005E35A3 /* ContentView.swift in Sources */,
 				E45C62942C0D6BCB00557DD9 /* HomeView.swift in Sources */,
 				E4A6BAF62C08314E005E35A3 /* CategoriesView.swift in Sources */,
+				707ED30E2C0FE2B9003621B3 /* MyListingsView.swift in Sources */,
 				E4A6BAE82C08313E005E35A3 /* ReHomeAppApp.swift in Sources */,
+				707F4A342C0E916D0009D23C /* AddItemView.swift in Sources */,
+				70E42E222C11464800523226 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ReHomeApp/Preview Content\"";
-				DEVELOPMENT_TEAM = HNB78VG79H;
+				DEVELOPMENT_TEAM = U7GFPFSL2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -288,7 +300,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ReHomeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = U7GFPFSL2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -317,7 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

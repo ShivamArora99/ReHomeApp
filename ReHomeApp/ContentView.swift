@@ -8,11 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var itemNameText: String = ""
+    @State var descriptionText: String = ""
     var body: some View {
-    Text("Hello")
+       
+            TabView {
+                HomeView()
+                    .tabItem {
+                        Image(systemName: "house.fill")
+                        Text("Home")
+                            
+                    }
+                
+                AddItemView(descriptionText: descriptionText, itemNameText: itemNameText)
+                    .tabItem {
+                        Image(systemName: "plus.circle.fill")
+                        Text("Add Item")
+                    }
+                
+                MyListingsView(itemNameText: itemNameText)
+                    .tabItem {
+                        Image(systemName: "list.bullet")
+                        Text("Listing")
+                    }
+            }
+        }
     }
-}
 
 #Preview {
-    ContentView()
+    ContentView(itemNameText: "", descriptionText: "")
 }

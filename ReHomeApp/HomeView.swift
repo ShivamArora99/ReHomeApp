@@ -16,6 +16,10 @@ struct HomeView: View {
         Category(id: "4", name: "Electronics", imageName: "electronics"),
         Category(id: "5", name: "Decorations", imageName: "decrations")
     ]
+    
+  
+    
+    
     var body: some View {
         VStack {
             // Profile and Notification
@@ -81,10 +85,10 @@ struct HomeView: View {
             
             // Tab Bar
             Spacer()
-            
         }
     }
 }
+
 
 
 #Preview {
